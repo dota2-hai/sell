@@ -1,0 +1,16 @@
+#logging:
+#  pattern:
+#    console: "%d - %msg%n"
+#  level:
+#    com: debug
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: admin
+    url: jdbc:mysql://localhost/sell?characterEncoding=utf-8&useSSL=false&time
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
